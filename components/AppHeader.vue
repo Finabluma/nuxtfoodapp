@@ -1,7 +1,7 @@
 <template>
   <section class="masthead" role="img" aria-label="Image Description">
     <h1>Nuxt food app</h1>
-    <button>see restaurants ></button>
+    <button><nuxt-link to="/restaurants">see restaurants ></nuxt-link></button>
   </section>
 </template>
 
@@ -35,6 +35,10 @@ h1 {
   line-height: 1;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
   margin-bottom: 40px;
+}
+button a {
+  color: white;
+  text-decoration: none;
 }
 </style>
 
